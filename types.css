@@ -1,0 +1,111 @@
+/* universal selector */
+
+/* *{
+    color:blue;
+} */
+
+/* tag selector */
+h4{
+    color:red;
+    text-decoration: double;
+}
+h3{
+    color:aquamarine !important;
+}
+
+
+
+/* id selector */
+#hi{
+    color:brown;
+}
+
+/* Class selector */
+
+.hello{
+    color:yellowgreen;
+}
+
+/* Child selector */
+
+div>span{
+    color:goldenrod;
+}
+
+
+/* descendant selector */
+
+div a{
+    color:black;
+}
+
+/* Sibling selector */
+h2~h5{
+    color:pink;
+}
+/* new selector in css */
+p[class]{
+    color:blueviolet;
+    font-size: 30px;
+}
+ 
+p[id="myid"]{
+    color:brown;
+    font-size: xx-large;
+}
+
+
+.paradiv{
+    min-width: 400px;
+    max-width: 1990px;
+    min-height: 500px;
+    max-height:1200px;
+    border:10px dotted;
+
+    padding:10px;
+    margin:20px;
+
+}
+p::first-letter{
+    font-size: 40px;
+}
+#mypara1{
+    width:50%;
+    height:200px;
+    border: 30px solid;
+    border-image:url("https://png.pngtree.com/png-clipart/20190918/ourmid/pngtree-border-design-3331056-png-image_1737307.jpg") 50 round;
+
+    border-radius: 20px;
+    /* these 2 are for mozila and chrome,safari */
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    color:deeppink;
+    overflow: auto;
+    padding: 20px;
+    margin: 30px auto 30px auto;
+    font-size: 20px;
+    box-shadow: 20px 10px 15px grey;
+    
+
+}
+#myh4{
+    color:darkgreen;
+    font-size: xx-large;
+    text-decoration: double;
+    text-align: center;
+}
+li{
+    display:inline-block;
+    margin:10px;
+
+}
+.myservice{
+    visibility: hidden;
+}
+
+/* .prod{
+    display:none;
+} */
+
+/* visiblity: hidden it leaves the space and the object also hidden
+display:none  the object will hidden and no space is there */

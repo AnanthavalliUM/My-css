@@ -1,0 +1,141 @@
+p{
+    color:rgb(50, 150, 60);
+
+}
+/* rgb --->red,green,blue  range from 0 -255 */
+span{
+    color:hsl(40,95%,90%);
+    background-color: rgba(60,80,200,.8);
+}
+
+/* hsl ---> hue,saturation,lightness 
+hue: value always in angle
+saturation:  value always from 0 -100%
+lightness: value always from 0-100 % */
+
+/* rgba a--> refers to opacity it values from 0 to 1 */
+
+ol{
+    color:#820016;
+}
+
+/* color can be given by hexadecimal value */
+
+.gita{
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: double;
+    text-align: left;
+    font-stretch: semi-condensed;
+}
+
+#exe{
+    color:mediumspringgreen;
+    font-size:24px;
+    font-weight: lighter;
+    font-style: normal;
+    font-stretch: extra-expanded;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.ui{
+  line-height: 1em;
+  letter-spacing: .2em;
+  word-spacing: .3em;
+  text-align: justify;
+  text-decoration: wavy;
+  font-size: 20px;
+  text-indent: 30px;  
+  text-shadow: 2px 2px 2px yellow;
+  
+}
+/* pseduo elements:A CSS pseudo-element is used to style specified parts of an element. For example, it can be used to: Style the first letter, or line, of an element */
+p:first-letter{
+    font-size: 30px;
+} 
+/* when we give text-decoration none to anchor tag it wont underline */
+a{
+    text-decoration: none;   
+} 
+
+/* A pseudo-class is used to define a special state of an element eg:mouse-hover,link-visited */
+
+a:link{
+    color:darkgreen;
+}
+a:visited{
+    color:darkred;
+}
+
+
+a:hover{
+    color:blueviolet;
+}
+a:focus{
+    color:yellow;
+}
+
+a:active{
+    color:aquamarine;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol{
+    list-style-type: lower-greek;
+    list-style-position: initial;
+}
+
+table{
+    width:300px;
+    margin:auto;
+    border-spacing: 10px 20px;
+    /* border-collapse: collapse; */
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding:10px;
+}
+
+td{
+    padding:15px ;  /* padding is the space between content and borders*/
+    border: 1px solid black;
+}
+.amnt{
+    text-align: right;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+    
+}
+.gita{
+    background: linear-gradient(green,yellow);
+}
+
+.box{
+   width:200px;
+   height:100px;
+   background: repeating-linear-gradient(blue 20px, yellow 30px); 
+}
+
+.box1{
+    width:200px;
+    height:100px;
+    background-image: radial-gradient(circle, red, yellow, green);
+
+}
+
+
